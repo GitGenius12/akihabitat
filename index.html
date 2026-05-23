@@ -1,524 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Construction Website</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AKI Habitat | Interior Design &amp; Construction</title>
+  <meta name="description" content="AKI Habitat — Premium interior design and construction services in Mumbai. Transforming spaces into stylish, functional, personalized environments." />
 
-    <!-- font awesome cdn link  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
+<body>
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+  <!-- ══════════════ HEADER ══════════════ -->
+  <header class="header" id="header">
+    <a href="#home" class="logo">
+      <span class="logo-aki">AKI</span>
+      <span class="logo-sep">|</span>
+      <span class="logo-habitat">Habitat</span>
+    </a>
 
-  <body>
-    <!-- header section starts  -->
+    <nav class="navbar" id="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-    <header class="header">
-      <a href="#" class="logo"
-        >AKI Habitat - <span>Interior & Construction</span></a
-      >
+    <a
+      href="https://wa.me/919892131552?text=Hi%20AKI%20Habitat!%20I%20am%20interested%20in%20a%20free%20consultation%20for%20my%20project."
+      class="header-cta"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-whatsapp"></i>
+      Free Consultation
+    </a>
 
-      <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#services">services</a>
-      </nav>
+    <button class="menu-btn" id="menu-btn" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
 
-      <div class="icons">
-        <div id="menu-btn" class="fas fa-bars" style="display: none"></div>
-        <div
-          id="info-btn"
-          class="fas fa-info-circle"
-          title="Click to See Contact Info"
-        ></div>
-        <div id="search-btn" class="fas fa-search" style="display: none"></div>
-        <div id="login-btn" style="display: none"></div>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="home">
+    <div class="swiper hero-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide" style="background-image: url('images/home-slide-1.jpg')">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <div class="slide-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span>Est. 2020 &nbsp;·&nbsp; Mumbai, India</span>
+            </div>
+            <h1>We Build<br /><em>Your Vision</em></h1>
+            <p>Apna Ghar, Apna Sapna — trusted interior design and construction, from blueprint to final handover.</p>
+            <div class="slide-actions">
+              <a href="#about" class="btn btn-gold">Explore Our Work</a>
+              <a href="#contact" class="btn btn-ghost">Get a Free Quote</a>
+            </div>
+          </div>
+          <div class="slide-counter" aria-hidden="true">01</div>
+        </div>
+
+        <div class="swiper-slide slide" style="background-image: url('images/home-slide-3.jpg')">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <div class="slide-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span>Interior Design</span>
+            </div>
+            <h1>Design<br /><em>Beyond Walls</em></h1>
+            <p>We don't just design interiors — we build foundations for better living and inspired spaces.</p>
+            <div class="slide-actions">
+              <a href="#services" class="btn btn-gold">Our Services</a>
+              <a href="#contact" class="btn btn-ghost">Get a Free Quote</a>
+            </div>
+          </div>
+          <div class="slide-counter" aria-hidden="true">02</div>
+        </div>
+
+        <div class="swiper-slide slide" style="background-image: url('images/home-slide-2.jpg')">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <div class="slide-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span>Construction &amp; Renovation</span>
+            </div>
+            <h1>From Ground<br /><em>to Glory</em></h1>
+            <p>Structurally sound, visually elegant, functionally efficient. Every detail managed with precision.</p>
+            <div class="slide-actions">
+              <a href="#projects" class="btn btn-gold">View Projects</a>
+              <a href="#contact" class="btn btn-ghost">Get a Free Quote</a>
+            </div>
+          </div>
+          <div class="slide-counter" aria-hidden="true">03</div>
+        </div>
+
       </div>
-    </header>
 
-    <div class="contact-info">
-      <div id="close-contact-info" class="fas fa-times"></div>
-
-      <div class="info">
-        <i class="fas fa-phone"></i>
-        <h3>phone number</h3>
-        <p>Deepak A Kumar - 9892131552</p>
-        <p>Shananwaj Syed - 9833879382</p>
-        <p>Pavi Jagan - 8489583029</p>
-      </div>
-
-      <div class="info">
-        <i class="fas fa-envelope"></i>
-        <h3>email address</h3>
-        <p>akihabitat@gmail.com</p>
+      <div class="hero-controls">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
 
-    <section class="home" id="home">
-      <div class="swiper home-slider">
-        <div class="swiper-wrapper">
-          <section
-            class="swiper-slide slide"
-            style="background: url(images/home-slide-1-mob.jpg) no-repeat"
-          >
-            <div class="content">
-              <h3>We provide best service</h3>
-              <p style="font-weight: 1000;">Apna Ghar, Apna Sapna.</p>
-              <a href="#about" class="btn">get started</a>
-            </div>
-          </section>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
 
-          <section
-            class="swiper-slide slide"
-            style="background: url(images/home-slide-3.jpg) no-repeat"
-          >
-            <div class="content">
-              <h3>making dream come to life</h3>
-              <p style="font-weight: 1000;">
-                At AKI Habitat, we don’t just design interiors — we build
-                foundations for better living. Whether you're imagining your
-                dream home or upgrading your office space, our team is here to
-                bring your ideas to life with a perfect blend of vision and
-                structure.
-              </p>
-              <a href="#about" class="btn">get started</a>
-            </div>
-          </section>
 
-          <section
-            class="swiper-slide slide"
-            style="background: url(images/home-slide-2.jpg) no-repeat"
-          >
-            <div class="content">
-              <h3>from concept to creation</h3>
-              <p style="font-weight: 1000;">
-                Our construction services are tailored to create spaces that are
-                structurally sound, visually elegant, and functionally
-                efficient. From layout planning and civil work to the final coat
-                of paint, we manage every detail with care, craftsmanship, and
-                precision.
-              </p>
-              <a href="#about" class="btn">get started</a>
-            </div>
-          </section>
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+  <!-- ══════════════ TICKER ══════════════ -->
+  <div class="ticker-bar" aria-hidden="true">
+    <div class="ticker-track">
+      <div class="ticker-inner">
+        <span>Interior Design</span><span class="dot">◆</span>
+        <span>Construction</span><span class="dot">◆</span>
+        <span>Turnkey Projects</span><span class="dot">◆</span>
+        <span>Renovation</span><span class="dot">◆</span>
+        <span>3D Visualization</span><span class="dot">◆</span>
+        <span>Project Management</span><span class="dot">◆</span>
+        <span>Modular Kitchens</span><span class="dot">◆</span>
+        <span>Civil Work</span><span class="dot">◆</span>
+        <!-- Duplicate for seamless loop -->
+        <span>Interior Design</span><span class="dot">◆</span>
+        <span>Construction</span><span class="dot">◆</span>
+        <span>Turnkey Projects</span><span class="dot">◆</span>
+        <span>Renovation</span><span class="dot">◆</span>
+        <span>3D Visualization</span><span class="dot">◆</span>
+        <span>Project Management</span><span class="dot">◆</span>
+        <span>Modular Kitchens</span><span class="dot">◆</span>
+        <span>Civil Work</span><span class="dot">◆</span>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <section class="about" id="about">
-      <h1 class="heading">about us</h1>
 
-      <div class="row">
-        <div class="video">
-          <video src="images/about-vid.mp4" loop muted autoplay></video>
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-media reveal">
+          <div class="video-frame">
+            <video src="images/about-vid.mp4" loop muted autoplay playsinline></video>
+          </div>
+          <div class="years-badge">
+            <span class="badge-num" data-count="5">0</span>
+            <span class="badge-label">Years of<br/>Excellence</span>
+          </div>
         </div>
 
-        <div class="content">
-          <h3>We will provide you the best work which you dreamt for!</h3>
-          <p>
-            AKI Habitat is a new-age interior design and construction company
-            committed to transforming spaces into stylish, functional, and
-            personalized environments. Whether you're building your dream home
-            or redesigning your office, our team combines creativity, technical
-            knowledge, and precision to deliver outstanding results. Though
-            we're a fresh brand, our vision is rooted in timeless design, strong
-            work ethic, and a passion for bringing ideas to life — one room, one
-            wall, one corner at a time.
-          </p>
-          <!-- <a href="#services" class="btn">read more</a> -->
+        <div class="about-content reveal reveal-delay-2">
+          <div class="eyebrow">About AKI Habitat</div>
+          <h2 class="heading-dark">Crafting Spaces.<br />Building <em>Legacies.</em></h2>
+          <div class="gold-rule"></div>
+          <p>AKI Habitat is a new-age interior design and construction company committed to transforming spaces into stylish, functional, and personalized environments. Whether you're building your dream home or redesigning your office, our team combines creativity, technical knowledge, and precision to deliver outstanding results.</p>
+          <p>Rooted in timeless design, strong work ethic, and a passion for bringing ideas to life — one room, one wall, one corner at a time.</p>
+
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num" data-count="100">0</span>
+              <span class="stat-label">Projects<br/>Completed</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num" data-count="50">0</span>
+              <span class="stat-label">Happy<br/>Clients</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num" data-count="5">0</span>
+              <span class="stat-label">Years<br/>Experience</span>
+            </div>
+          </div>
         </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="services" id="services">
-      <h1 class="heading">our services</h1>
 
-      <div class="box-container">
-        <div class="box">
-          <img src="images/service-2.png" alt="Interior Design" />
+  <!-- ══════════════ SERVICES ══════════════ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow light">What We Do</div>
+        <h2 class="heading-light">Our <em>Services</em></h2>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="svc-num" aria-hidden="true">01</div>
+          <div class="svc-icon">
+            <img src="images/service-2.png" alt="" />
+          </div>
           <h3>Interior Design</h3>
-          <p>Transform your spaces with:</p>
+          <p>Transforming every room into a personal statement of style and comfort.</p>
           <ul>
             <li>Residential Interiors (2BHK–Villas)</li>
             <li>Modular Kitchen Design</li>
-            <li>Bedroom & Living Room Concepts</li>
-            <li>Space Planning & Furniture Layouts</li>
-            <li>3D Visualization & Moodboards</li>
+            <li>Bedroom &amp; Living Room Concepts</li>
+            <li>Space Planning &amp; Furniture Layouts</li>
+            <li>3D Visualization &amp; Moodboards</li>
           </ul>
+          <div class="svc-line"></div>
         </div>
 
-        <div class="box">
-          <img src="images/service-6.png" alt="Construction & Renovation" />
-          <h3>Construction & Renovation</h3>
-          <p>Build or upgrade with:</p>
+        <div class="service-card reveal reveal-delay-1">
+          <div class="svc-num" aria-hidden="true">02</div>
+          <div class="svc-icon">
+            <img src="images/service-6.png" alt="" />
+          </div>
+          <h3>Construction &amp; Renovation</h3>
+          <p>Building and upgrading structures with precision, quality, and reliability.</p>
           <ul>
-            <li>New Building Construction (Homes & Small Commercial)</li>
+            <li>New Building Construction</li>
             <li>Structural Modifications</li>
-            <li>Civil Work & Renovation</li>
-            <li>Painting & False Ceiling</li>
-            <li>Waterproofing & Flooring</li>
+            <li>Civil Work &amp; Renovation</li>
+            <li>Painting &amp; False Ceiling</li>
+            <li>Waterproofing &amp; Flooring</li>
           </ul>
+          <div class="svc-line"></div>
         </div>
 
-        <div class="box">
-          <img src="images/service-8.png" alt="Turnkey Projects" />
+        <div class="service-card reveal reveal-delay-2">
+          <div class="svc-num" aria-hidden="true">03</div>
+          <div class="svc-icon">
+            <img src="images/service-8.png" alt="" />
+          </div>
           <h3>Turnkey Projects</h3>
-          <p>Seamless delivery with:</p>
+          <p>Complete project delivery from concept to final handover, seamlessly managed.</p>
           <ul>
-            <li>End-to-end Execution from Design to Delivery</li>
-            <li>Material Selection & Procurement</li>
-            <li>Project Management & Quality Control</li>
+            <li>End-to-end Design &amp; Execution</li>
+            <li>Material Selection &amp; Procurement</li>
+            <li>Project Management</li>
+            <li>Quality Control &amp; Inspection</li>
           </ul>
+          <div class="svc-line"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════ PROCESS ══════════════ -->
+  <section class="process" id="process">
+    <div class="process-bg-text" aria-hidden="true">PROCESS</div>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">How We Work</div>
+        <h2 class="heading-dark">Our Step-by-Step <em>Approach</em></h2>
+      </div>
+
+      <div class="process-grid">
+
+        <div class="process-step reveal">
+          <div class="step-num-bg" aria-hidden="true">01</div>
+          <span class="step-label">Step 01</span>
+          <h3>Consultation</h3>
+          <p>In-depth discovery of your needs, space dimensions, lifestyle, and budget to build a clear project foundation.</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-1">
+          <div class="step-num-bg" aria-hidden="true">02</div>
+          <span class="step-label">Step 02</span>
+          <h3>Concept Development</h3>
+          <p>Moodboards, design themes, material palettes, and 3D visualizations crafted to bring your vision to life.</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-2">
+          <div class="step-num-bg" aria-hidden="true">03</div>
+          <span class="step-label">Step 03</span>
+          <h3>Execution Planning</h3>
+          <p>Detailed project timeline, cost estimate, vendor selection, and scheduling before a single nail is driven.</p>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="step-num-bg" aria-hidden="true">04</div>
+          <span class="step-label">Step 04</span>
+          <h3>On-Site Execution</h3>
+          <p>Skilled professionals and trusted vendors execute the plan under tight quality control and supervision.</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-1">
+          <div class="step-num-bg" aria-hidden="true">05</div>
+          <span class="step-label">Step 05</span>
+          <h3>Final Handover</h3>
+          <p>Thorough quality inspection, snagging, and handover with a complete customer satisfaction walkthrough.</p>
+        </div>
+
+        <div class="why-card reveal reveal-delay-2">
+          <h3>Why Choose<br/>AKI Habitat?</h3>
+          <ul class="why-list">
+            <li><i class="fas fa-check" aria-hidden="true"></i> Personalized attention &amp; design</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Transparent process &amp; pricing</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Creative design, practical results</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Reliable civil + interior team</li>
+            <li><i class="fas fa-check" aria-hidden="true"></i> Free consultation for new clients</li>
+          </ul>
+          <a href="#contact" class="btn btn-dark-sm">Book Free Consult</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════ PROJECTS ══════════════ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow light">Our Portfolio</div>
+        <h2 class="heading-light">Featured <em>Projects</em></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card p-tall reveal">
+          <img src="images/project-1.jpg" alt="Residential Interior Design Project" loading="lazy" />
+          <div class="project-overlay">
+            <span class="proj-cat">Interior Design</span>
+            <h3>Residential Transformation</h3>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1">
+          <img src="images/project-2.jpg" alt="Kitchen Renovation" loading="lazy" />
+          <div class="project-overlay">
+            <span class="proj-cat">Renovation</span>
+            <h3>Kitchen Remodel</h3>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2">
+          <img src="images/project-3.jpg" alt="New Construction Project" loading="lazy" />
+          <div class="project-overlay">
+            <span class="proj-cat">Construction</span>
+            <h3>New Build Project</h3>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <img src="images/project-4.jpg" alt="Living Room Interior" loading="lazy" />
+          <div class="project-overlay">
+            <span class="proj-cat">Interior Design</span>
+            <h3>Living Room Concept</h3>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1">
+          <img src="images/project-5.jpg" alt="Turnkey Apartment Project" loading="lazy" />
+          <div class="project-overlay">
+            <span class="proj-cat">Turnkey Project</span>
+            <h3>3BHK Full Delivery</h3>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2">
+          <img src="images/project-6.jpg" alt="Office Renovation" loading="lazy" />
+          <div class="project-overlay">
+            <span class="proj-cat">Renovation</span>
+            <h3>Office Renovation</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">Get In Touch</div>
+        <h2 class="heading-dark">Let's Build <em>Together</em></h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-card reveal">
+          <div class="cc-icon"><i class="fas fa-phone-alt" aria-hidden="true"></i></div>
+          <h4>Call Us</h4>
+          <div class="cc-links">
+            <div class="cc-person">
+              <a href="tel:+919892131552">Deepak A Kumar</a>
+              <span>+91 98921 31552</span>
+            </div>
+            <div class="cc-person">
+              <a href="tel:+919833879382">Shananwaj Syed</a>
+              <span>+91 98338 79382</span>
+            </div>
+            <div class="cc-person">
+              <a href="tel:+918489583029">Pavi Jagan</a>
+              <span>+91 84895 83029</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card reveal reveal-delay-1">
+          <div class="cc-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+          <h4>Email Us</h4>
+          <div class="cc-links">
+            <a href="mailto:akihabitat@gmail.com" class="cc-email">akihabitat@gmail.com</a>
+            <span class="cc-note">We reply within 24 hours</span>
+          </div>
+        </div>
+
+        <div class="contact-card wa-contact reveal reveal-delay-2">
+          <div class="cc-icon cc-wa"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
+          <h4>WhatsApp Us</h4>
+          <p>Message is pre-filled — just tap Open and press <strong>Send</strong>.</p>
+          <a
+            href="https://wa.me/919892131552?text=Hi%20AKI%20Habitat!%20I%20am%20interested%20in%20your%20interior%20design%20and%20construction%20services.%20I%20would%20like%20to%20schedule%20a%20free%20consultation.%20Please%20get%20back%20to%20me%20at%20your%20earliest%20convenience."
+            class="wa-cta-btn"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            Open WhatsApp &amp; Send
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="footer-marquee" aria-hidden="true">
+      <span>Building Dreams, One Space at a Time&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;</span>
+      <span>Building Dreams, One Space at a Time&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;</span>
+      <span>Building Dreams, One Space at a Time&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;</span>
+    </div>
+
+    <div class="footer-body">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">
+              <span>AKI</span> Habitat
+            </a>
+            <p>Interior Design &amp; Construction company committed to transforming spaces into stylish, functional, and personalized environments across Mumbai.</p>
+          </div>
+
+          <div class="footer-col">
+            <h5>Navigation</h5>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#process">Our Process</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h5>Services</h5>
+            <ul>
+              <li><a href="#services">Interior Design</a></li>
+              <li><a href="#services">Construction</a></li>
+              <li><a href="#services">Renovation</a></li>
+              <li><a href="#services">Turnkey Projects</a></li>
+              <li><a href="#services">3D Visualization</a></li>
+              <li><a href="#services">Project Management</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <div class="footer-contact">
+              <div><i class="fas fa-phone-alt" aria-hidden="true"></i>+91 98921 31552</div>
+              <div><i class="fas fa-phone-alt" aria-hidden="true"></i>+91 98338 79382</div>
+              <div><i class="fas fa-envelope" aria-hidden="true"></i>akihabitat@gmail.com</div>
+            </div>
+            <a
+              href="https://wa.me/919892131552?text=Hi%20AKI%20Habitat!%20I%20am%20interested%20in%20your%20services."
+              class="footer-wa"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>WhatsApp Us
+            </a>
+          </div>
+
         </div>
       </div>
-
-      <style>
-        .box-container {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 2.5rem;
-          padding: 2rem;
-          background: linear-gradient(120deg, #f0f3f5 0%, #f9fafb 100%);
-        }
-
-        .box {
-          background: linear-gradient(135deg, #dbe6f6 0%, #ffffff 100%);
-          border-radius: 1.5rem;
-          box-shadow: 0 6px 24px rgba(44, 62, 80, 0.13),
-            0 1.5px 5px rgba(44, 62, 80, 0.05);
-          transition: transform 0.25s cubic-bezier(0.7, 0.19, 0.37, 0.92),
-            box-shadow 0.3s;
-          padding: 2.5rem 2rem 1.8rem 2rem;
-          max-width: 355px;
-          min-width: 280px;
-          flex: 1 1 310px;
-          text-align: center;
-          position: relative;
-          overflow: hidden;
-          font-family: "Segoe UI", "Roboto", Arial, sans-serif;
-          color: #205072;
-        }
-
-        .box img {
-          width: 72px;
-          height: 72px;
-          object-fit: contain;
-          border-radius: 0.75rem;
-          margin-bottom: 1.25rem;
-          background: #f7fafd;
-          box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
-        }
-
-        .box h3 {
-          font-size: 1.35rem;
-          font-weight: 700;
-          letter-spacing: 0.03em;
-          margin-bottom: 1rem;
-          color: #2979ff;
-          text-shadow: 0 2px 6px rgba(41, 121, 255, 0.07);
-        }
-
-        .box p {
-          font-size: 1.07rem;
-          line-height: 1.5;
-          color: #273747;
-          margin-bottom: 0.7rem;
-        }
-
-        .box ul {
-          padding-left: 1.1em;
-          text-align: left;
-          margin: 0 auto;
-          display: inline-block;
-          font-size: 1.5rem;
-          color: #32516c;
-        }
-
-        .box ul li {
-          margin-bottom: 0.45em;
-          position: relative;
-          padding-left: 1.2em;
-          list-style: none;
-        }
-
-        .box ul li::before {
-          content: "•";
-          position: absolute;
-          left: 0;
-          color: #2979ff;
-          font-weight: 900;
-          font-size: 1.1em;
-          line-height: 1;
-        }
-
-        .box:hover {
-          transform: translateY(-10px) scale(1.03) rotate(-1deg);
-          box-shadow: 0 18px 36px rgba(41, 121, 255, 0.13),
-            0 6px 18px rgba(44, 62, 80, 0.13);
-          background: linear-gradient(120deg, #e0ecfd 0%, #ffffff 100%);
-        }
-
-        @media (max-width: 950px) {
-          .box-container {
-            flex-direction: column;
-            align-items: center;
-          }
-          .box {
-            max-width: 95vw;
-          }
-        }
-      </style>
-    </section>
-
- <!-- Approach Section -->
-<section class="services" id="approach">
-  <h1 class="heading">Our Approach</h1>
-
-  <div class="box-container">
-    <div class="box" style="max-width: 1200px;">
-      <!-- <img src="images/approach.png" alt="Our Approach" /> -->
-      <h3 style="font-size: 2.7rem;">Step-by-step Process</h3>
-      <ol style="font-size: 1.5rem;">
-        <li><strong>Consultation</strong> – Understand client needs, space, and budget</li>
-        <li><strong>Concept Development</strong> – Moodboards, design themes, and 3D visuals</li>
-        <li><strong>Execution Planning</strong> – Timeline, cost estimate, and scheduling</li>
-        <li><strong>On-Site Execution</strong> – Managed by skilled professionals and vendors</li>
-        <li><strong>Final Handover</strong> – With quality check and customer satisfaction</li>
-      </ol>
     </div>
-  </div>
-</section>
 
-<!-- Why Choose Section -->
-<section class="services" id="whychoose">
-  <h1 class="heading">Why Choose AKI Habitat</h1>
-
-  <div class="box-container">
-    <div class="box" style="max-width: 1200px;">
-      <!-- <img src="images/whychoose.png" alt="Why Choose AKI" /> -->
-      <h3 style="font-size: 2.7rem;">Our Edge</h3>
-      <ul style="font-size: 1.5rem;">
-        <li>Personalized attention and design</li>
-        <li>Transparent process and pricing</li>
-        <li>Creative design with practical implementation</li>
-        <li>Reliable execution team (civil + interior)</li>
-        <li>Free consultation for first-time clients</li>
-      </ul>
-    </div>
-  </div>
-
-  <style>
-   .box-1{
-      max-width: 880px;
-   }
-    .box-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2.5rem;
-      padding: 2rem;
-      background: linear-gradient(120deg, #f0f3f5 0%, #f9fafb 100%);
-    }
-
-    .box {
-      background: linear-gradient(135deg, #dbe6f6 0%, #ffffff 100%);
-      border-radius: 1.5rem;
-      box-shadow: 0 6px 24px rgba(44, 62, 80, 0.13),
-        0 1.5px 5px rgba(44, 62, 80, 0.05);
-      transition: transform 0.25s cubic-bezier(0.7, 0.19, 0.37, 0.92),
-        box-shadow 0.3s;
-      padding: 2.5rem 2rem 1.8rem 2rem;
-      max-width: 355px;
-      min-width: 280px;
-      flex: 1 1 310px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-      font-family: "Segoe UI", "Roboto", Arial, sans-serif;
-      color: #205072;
-    }
-
-    .box img {
-      width: 72px;
-      height: 72px;
-      object-fit: contain;
-      border-radius: 0.75rem;
-      margin-bottom: 1.25rem;
-      background: #f7fafd;
-      box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
-    }
-
-    .box h3 {
-      font-size: 1.35rem;
-      font-weight: 700;
-      letter-spacing: 0.03em;
-      margin-bottom: 1rem;
-      color: #2979ff;
-      text-shadow: 0 2px 6px rgba(41, 121, 255, 0.07);
-    }
-
-    .box p,
-    .box ol,
-    .box ul {
-      font-size: 1.07rem;
-      line-height: 1.5;
-      color: #273747;
-      margin-bottom: 0.7rem;
-      padding-left: 1.1em;
-      text-align: left;
-      display: inline-block;
-    }
-
-    .box ul li,
-    .box ol li {
-      margin-bottom: 0.45em;
-      position: relative;
-      padding-left: 1.2em;
-      list-style: none;
-    }
-
-    .box ul li::before {
-      content: "✓";
-      position: absolute;
-      left: 0;
-      color: #37bb84;
-      font-weight: 700;
-      font-size: 1.1em;
-      line-height: 1;
-    }
-
-    .box ol li::before {
-      content: counter(item) ". ";
-      counter-increment: item;
-      position: absolute;
-      left: 0;
-      color: #2979ff;
-      font-weight: bold;
-      font-size: 1.1em;
-    }
-
-    .box ol {
-      counter-reset: item;
-    }
-
-    .box:hover {
-      transform: translateY(-10px) scale(1.03) rotate(-1deg);
-      box-shadow: 0 18px 36px rgba(41, 121, 255, 0.13),
-        0 6px 18px rgba(44, 62, 80, 0.13);
-      background: linear-gradient(120deg, #e0ecfd 0%, #ffffff 100%);
-    }
-
-    @media (max-width: 950px) {
-      .box-container {
-        flex-direction: column;
-        align-items: center;
-      }
-      .box {
-        max-width: 95vw;
-      }
-    }
-  </style>
-</section>
-
-
-    <!-- Shared CSS -->
-    <style>
-      .info-section {
-        background: linear-gradient(120deg, #f0f3f5 0%, #f9fafb 100%);
-        padding: 4rem 2rem;
-        text-align: center;
-        font-family: "Segoe UI", "Roboto", Arial, sans-serif;
-        color: #2d3e50;
-      }
-
-      .info-section .content-block {
-        max-width: 800px;
-        margin: 0 auto;
-        background: #ffffff;
-        padding: 2.5rem 2rem;
-        border-radius: 1.5rem;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-        transition: transform 0.3s ease;
-      }
-
-      .info-section .content-block:hover {
-        transform: translateY(-6px);
-      }
-
-      .info-section h2 {
-        font-size: 2rem;
-        color: #2979ff;
-        margin-bottom: 1.5rem;
-      }
-
-      .info-section ol,
-      .info-section ul {
-        text-align: left;
-        font-size: 1.15rem;
-        line-height: 1.8;
-        padding-left: 1.2rem;
-      }
-
-      .info-section ol li,
-      .info-section ul li {
-        margin-bottom: 0.7rem;
-      }
-
-      .info-section strong {
-        color: #205072;
-      }
-
-      @media (max-width: 768px) {
-        .info-section {
-          padding: 3rem 1.2rem;
-        }
-
-        .info-section .content-block {
-          padding: 2rem 1.5rem;
-        }
-      }
-    </style>
-
-
-    <section class="footer">
-      <div class="links">
-        <a class="btn" href="#home">home</a>
-        <a class="btn" href="#about">about</a>
-        <a class="btn" href="#services">services</a>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 AKI Habitat. All rights reserved.</p>
+        <p>Interior Design &amp; Construction · Mumbai, India</p>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- footer section ends -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+  <!-- ══════════════ WHATSAPP FLOAT ══════════════ -->
+  <a
+    href="https://wa.me/919892131552?text=Hi%20AKI%20Habitat!%20I%20am%20interested%20in%20your%20interior%20design%20and%20construction%20services.%20I%20would%20like%20to%20schedule%20a%20free%20consultation.%20Please%20get%20back%20to%20me%20at%20your%20earliest%20convenience."
+    class="wa-float"
+    target="_blank"
+    rel="noopener"
+    aria-label="Chat on WhatsApp — message pre-filled"
+  >
+    <span class="wa-pulse-ring"></span>
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    <div class="wa-float-tip">
+      <strong>Chat with us!</strong>
+      <small>Message pre-filled — just press Send</small>
+    </div>
+  </a>
 
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-    <!-- custom js file link  -->
-    <script src="js/script.js"></script>
-
-    <script>
-      lightGallery(document.querySelector(".projects .box-container"));
-    </script>
-  </body>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
