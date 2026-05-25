@@ -107,13 +107,82 @@ section {
 }
 
 .header .logo {
-  font-size: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
   color: var(--black);
-  text-transform: capitalize;
+  text-decoration: none;
+  line-height: 1;
+  padding: 0.4rem 0;
 }
 
-.header .logo span {
+.header .logo .logo-bar {
+  display: inline-block;
+  width: 4px;
+  height: 3.6rem;
+  background: var(--yellow);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.header .logo .logo-text {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.header .logo .logo-name {
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--black);
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Segoe UI", "Inter", Arial, sans-serif;
+}
+
+.header .logo .logo-name em {
+  font-style: normal;
   color: var(--yellow);
+}
+
+.header .logo .logo-powered {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.92rem;
+  line-height: 1;
+}
+
+.header .logo .logo-powered-pre {
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+  font-size: 0.78rem;
+}
+
+.header .logo .logo-powered-main {
+  color: #555;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .header .logo .logo-bar { height: 2.8rem; }
+  .header .logo .logo-name { font-size: 1.9rem; }
+  .header .logo .logo-powered-pre { font-size: 0.65rem; }
+  .header .logo .logo-powered-main { font-size: 0.75rem; }
+}
+
+@media (max-width: 480px) {
+  .header .logo .logo-powered {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
 }
 
 .header .navbar a {
